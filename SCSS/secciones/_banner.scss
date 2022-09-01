@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tituloBanner {
+        text-align: center;
+        animation-name: zoom;
+        animation-duration: 0.5s;
+        animation-iteration-count: unset;
+
+        h1 {
+            font-family: 'Alegreya', serif;
+            font-size: 12vw;
+            font-weight: 700;
+            line-height: 1.2;
+
+            .colorLila {
+                color: #bb3566;
+            }
+        }
+
+        h2 {
+            font-family: 'Alegreya', serif;
+            font-weight: 400;
+            font-size: 8vw;
+        }
+    }
+
+    .imgBanner {
+        height: 95vw;
+    }
+}
